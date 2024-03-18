@@ -1,0 +1,146 @@
+*{
+    font-family: 'Roboto';
+    background-color: 	#cc1100;
+    color: white;
+}
+.cont-titulo{
+    justify-content: center;
+    text-align: center;
+    border-bottom: 2px solid white;
+    h1{
+        font-size: 70px;
+    }
+}
+.cont-titulo{
+    @media (max-width: 600px){
+    	justify-content: center;
+        text-align: center;
+        align-items: center;
+        display: grid;
+        h1{
+          font-size: 50px;
+        }
+    }
+}
+.cont-indice{
+    margin-top: 30px;
+    text-align: center;
+    border-bottom: 2px solid white;
+    h2{
+        color: black;
+        font-size: 40px;
+    }
+    ul{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        font-family: sans-serif;
+        margin-bottom: 20px;
+    }
+    i:hover{
+        color: blue;
+    }
+}
+.indice a{
+    display: grid;
+    text-align: left;
+}
+
+.historia{
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    border-bottom: 2px solid white;
+    h2{
+        margin-bottom: 20px;
+        color: black;
+    }
+    p{
+        margin-bottom: 30px;
+    }
+    a{
+        text-decoration: none;
+        color: blue;
+        font-size: 20px;
+    }
+    a:hover{
+        color: white;
+    }
+}
+.copas{
+    margin-top: 30px;
+    text-align: center;
+    border-bottom: 2px solid white;
+    h2{
+        color: black;
+        margin-bottom: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        color: blue;
+    }
+    ul{
+        list-style: none;
+    }
+}
+.cont-copas {
+    justify-content: left;
+    text-align: left;
+    
+}
+.estadio{
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 2px solid white;
+    h2{
+        color: black;
+        margin-bottom: 20px;
+    }
+    p{
+        margin-bottom: 20px;
+    }
+    img{
+        margin: 20px;
+    }
+}
+.footer{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    h4{ 
+        color: black;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    a{
+        text-decoration: none;
+        margin: 30px;
+        color: white;
+    }
+    a:hover{
+        color: blue;
+    }
+}
+.cont-footer{
+    display: block;
+    height: 150px;
+    
+}
+.links{
+    display: flex;
+    margin-right: 90px;
+    @media (max-width: 600px){
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    	display: block;
+        margin: 0;
+    }
+}
